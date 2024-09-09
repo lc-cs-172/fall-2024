@@ -66,6 +66,7 @@ A `continue` statement skips the rest of the current loop iteration.
 
 Please read the following Pythonorama pages by Wednesday:
 
+* https://github.com/alainkaegi/pythonorama/blob/main/control_structures/loops.md
 * https://github.com/alainkaegi/pythonorama/blob/main/development_tools/command_line.md
 * https://github.com/alainkaegi/pythonorama/blob/main/control_structures/your_first_program.md
 * https://github.com/alainkaegi/pythonorama/blob/main/development_tools/vs_code.md
