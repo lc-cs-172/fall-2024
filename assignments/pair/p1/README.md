@@ -59,11 +59,35 @@ files:
 Remember the functions `chr()` and `ord()` to convert between integers and
 characters.
 
+Here are a few lines of Python code that shows how to read the entire content of
+a file named `para1.txt` and store it in a variable as a (possibly long) list of
+strings (one per line):
+
+```python
+with open('para1.txt') as f:
+    text = f.readlines()
+print(text[0])  # print the first of the text
+```
+
 We will use the `graphics.py`
 [package](https://mcsp.wartburg.edu/zelle/python/graphics/graphics.pdf) for many
-of our drawing tasks this term including for this assignment.
+of our drawing tasks this term including for this project.
 
-Create a drawing canvas with this line:
+To install this package, you may have to type the following command in the
+terminal (only needed once):
+
+```bash
+pip3 install graphics.py
+```
+
+To use this package in your program, you must first import it.  Place the
+following line near the top, by convention, just after the top-level docstring:
+
+```python
+import graphics as g
+```
+
+Then, you can create a drawing canvas with this line:
 
 ```python
 win = g.GraphWin('Letter Distribution', 400, 400)
@@ -91,7 +115,7 @@ in the drawing.  Once you click in the drawing, your program will exit.
 
 See the `graphics.py`
 [manual](https://mcsp.wartburg.edu/zelle/python/graphics/graphics.pdf) for other
-important functions useful to draw the diagram.
+important functions needed to draw the diagram.
 
 ## What To Hand In
 
