@@ -66,7 +66,7 @@ strings (one per line):
 ```python
 with open('para1.txt') as f:
     text = f.readlines()
-print(text[0])  # print the first of the text
+print(text[0])  # print the first line of the text
 ```
 
 We will use the `graphics.py`
