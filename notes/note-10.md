@@ -1,4 +1,4 @@
-# CS2 Fall 2024 Node 10
+# CS2 Fall 2024 Note 10
 
 ## Libraries
 
