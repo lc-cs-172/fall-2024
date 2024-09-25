@@ -10,7 +10,7 @@ files:
 * [`linear_algebra.py`](./linear_algebra.py), and
 * [`linear_algebra_test.py`](./linear_algebra_test.py),
 
-place these files in the folder just created, open `linear_algebra_text.py`, a
+place these files in the folder just created, open `linear_algebra_test.py`, a
 beaker icon should appear on the left, click on that icon, click on `Configure
 Python Test`, select the `pytest framework`, select the `Root directory`, wait a
 few seconds, then the folder name (`linear`) should appear on the `TESTING` pane
