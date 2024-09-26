@@ -8,7 +8,7 @@ import pytest
 
 EPSILON = 0.0001
 
-def create_matrix(num_row, num_col):
+def create_matrix(num_row : int, num_col : int) -> list[list[float]]:
     """Create a matrix of the given shape."""
     m = []
     for i in range(0, num_row):
