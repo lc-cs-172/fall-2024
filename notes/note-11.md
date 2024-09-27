@@ -4,6 +4,19 @@
 
 In Python *everything* is a reference.
 
+According to
+[wikipedia](https://en.wikipedia.org/wiki/Reference_(computer_science)),
+*reference* is
+
+> a value that enables a program to indirectly access a particular datum.
+
+### Immutable types
+
+When say that a type is *immutable* when the following condition is true when a
+new value of that type is created:
+
+> The new value is bound to a *fixed* reference for the rest of its lifetime.
+
 ### Pitfalls
 
 The following functions do not necessarily do what you expect.
