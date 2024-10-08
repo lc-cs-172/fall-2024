@@ -26,7 +26,7 @@ def a(x):
     # 4
     return r
 
-main():
+def main():
     # 1
     r = a(10)
     # 2
@@ -46,7 +46,7 @@ def a(x, y):
     # 4
     return r
 
-main():
+def main():
     # 1
     r = a(10, 20)
     # 2
