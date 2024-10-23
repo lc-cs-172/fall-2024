@@ -13,8 +13,8 @@ stacks = {'a': [], 'b': [], 'c': []}
 
 def move(x : str, y : str) -> None:
     """Move a disk from x to y, or vice versa, whichever is legal."""
-    if len(stacks[y]) == 0 or
-        (len(stacks[x]) > 0 and stacks[x][-1] < stacks[y][-1]):
+    if (len(stacks[y]) == 0 or
+        (len(stacks[x]) > 0 and stacks[x][-1] < stacks[y][-1])):
         print('move disk {} from peg {} to peg {}'.format(stacks[x][-1], x, y))
         stacks[y].append(stacks[x].pop())
     else:
