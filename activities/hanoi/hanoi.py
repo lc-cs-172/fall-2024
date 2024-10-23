@@ -1,12 +1,7 @@
-# CS2 Fall 2024 Note 21
-
-## Towers of Hanoi, iterative solution
-
-```python
 """Write the instructions for the problem of the towers of Hanoi with n
 disks.
 
-Inspired by a solution that appears in Wikipedia
+Inspired by an iterative solution that appears in Wikipedia
 (https://en.wikipedia.org/wiki/Tower_of_Hanoi#Iterative_solution)."""
 
 stacks = {'a': [], 'b': [], 'c': []}
@@ -44,4 +39,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
