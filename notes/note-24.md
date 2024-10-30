@@ -1,4 +1,4 @@
-# CS2 Fall 2024 Note 23
+# CS2 Fall 2024 Note 24
 
 ## Objects
 
