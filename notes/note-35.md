@@ -1,4 +1,4 @@
-# CS2 Fall 2024 Note 33
+# CS2 Fall 2024 Note 35
 
 ## Stacks (continued)
 
